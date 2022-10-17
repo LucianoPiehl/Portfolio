@@ -609,7 +609,7 @@ height: 3vw;
 margin: 2vw;
 color: #FFF;
 font-size: 2vw;
-border: 1px solid #ccc;
+/* border: 1px solid #ccc; */
 border-radius: 1vw;
 margin-right: 21vw;
 width: 20.5vw;
@@ -626,7 +626,7 @@ width: 32;
 margin: 2vw;
 color: #FFF;
 font-size: 2vw;
-border: 1px solid #ccc;
+/* border: 1px solid #ccc; */
 border-radius: 1vw;
 width: 20.5vw;
 }
@@ -641,25 +641,26 @@ margin-top: 1.7vw;
 color: #FFF;
 font-size: 2vw;
 padding: 1vw;
+justify-content: center;
 
 }
 
 .Ingles2{
-margin-left: 5vw;
+margin-left: 8vw;
 margin: 2vw;
 color: #FFF;
 font-size: 2vw;
-border: 1px solid #ccc;
+/* border: 1px solid #ccc; */
 border-radius: 1vw;
-width: 20.5vw;
+width: 27vw;
 text-align: left;
 }
 .Español2{
 color: #FFF;
 font-size: 2vw;
-border: 1px solid #ccc;
+/* border: 1px solid #ccc; */
 border-radius: 1vw;
-width: 20.5vw;
+width: 27vw;
 margin-right: 21vw;
 /* margin: 2vw; */
 height: 18vw;
@@ -669,10 +670,14 @@ text-align: left;
 .center2{
     display: flex;
     flex-direction: row-reverse;
-    margin-right: 6vw;
+    margin-right: 1vw;
 }
 .center{
     margin-right: 6vw;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.Margen{
+    margin-left: 5vw;
 }
