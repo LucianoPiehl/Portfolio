@@ -1,7 +1,6 @@
 let intro = document.querySelector('.Intro');
 let logo = document.querySelector('.LogoIntro');
 let logoSpan = document.querySelectorAll('.IntroPartes');
-
 window.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
        logoSpan.forEach((span, index) => {
