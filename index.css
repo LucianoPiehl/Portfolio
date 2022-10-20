@@ -12,19 +12,19 @@ margin: auto;
 /* Body */
 body{
 background-color: rgb(8, 109, 249);
-cursor: url('Imagenes/Mouse1.webp'), auto;
+cursor: url('Imagenes/Mouse1.png'), auto;
 }
 a{
-cursor: url('Imagenes/Mouse2.webp'), auto;
+cursor: url('Imagenes/Mouse2.png'), auto;
 }
 figure{
-cursor: url('Imagenes/Mouse2.webp'), auto;
+cursor: url('Imagenes/Mouse2.png'), auto;
 }
 .capa{
-cursor: url('Imagenes/Mouse2.webp'), auto;
+cursor: url('Imagenes/Mouse2.png'), auto;
 }
 .capa2{
-cursor: url('Imagenes/Mouse2.webp'), auto;
+cursor: url('Imagenes/Mouse2.png'), auto;
 }
 *::after,
 *::before{
@@ -200,7 +200,7 @@ transition: ease-in-out 0.5s;
 /* Estudios */
 .EstudiosImagen{
 border: solid 1px #FFF;
-background-image: url("Imagenes/FondoEstudio.webp");
+background-image: url("Imagenes/FondoEstudio.png");
 display: flex;
 justify-content: center;
 height: 11vw;
@@ -487,7 +487,7 @@ width: 99%;
 border: solid 1px #FFF; 
 margin-left: 4vw;
 border-radius: 1vw;
-background-image: url('Imagenes/FondoIntro.webp');
+background-image: url('Imagenes/FondoIntro.png');
 background-size: cover;
 width: 85.5vw;
 height: 13vw;
@@ -588,7 +588,7 @@ width: 62vw;
 height: 32vw;
 border-radius: 1vw;
 margin-left: 9.5vw;
-cursor: url('Imagenes/Mouse2.webp'), auto;
+cursor: url('Imagenes/Mouse2.png'), auto;
 }
 /* Idiomas */
 .cuadradoblancoL{
@@ -826,7 +826,7 @@ width: 100%;
 border: solid 1px #FFF; 
 margin-left: 3.5vw;
 border-radius: 1vw;
-background-image: url('Imagenes/FondoIntro2.webp');
+background-image: url('Imagenes/FondoIntro2.png');
 background-size: cover;
 width: 85.5vw;
 height: 13vw;
