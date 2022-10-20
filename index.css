@@ -834,5 +834,15 @@ justify-content: center;
 align-items: center;   
 }
 #margin_practicas{
+<<<<<<< HEAD
     margin-left: 33vw;
+=======
+    
+}
+.justify-content{
+    display: flex;   
+    justify-content: center;
+    flex-direction: row;
+
+>>>>>>> 3bcf69e (Actualizacion)
 }
