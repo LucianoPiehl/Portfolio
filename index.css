@@ -688,7 +688,6 @@ border-radius: 1vw;
 padding: auto;
 width: 85.5vw;
 margin-left: 3.5vw;
-border: 1px solid #fff;
 background-color: #000;
 }
 .cuadradoblanco4 h1{
@@ -835,11 +834,10 @@ justify-content: center;
 align-items: center;   
 }
 #margin_practicas{
-
+    margin-left: 33vw;  
 }
 .justify-content{
     display: flex;   
     justify-content: center;
     flex-direction: row;
-    /*  */
 }
