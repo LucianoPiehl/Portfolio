@@ -52,6 +52,9 @@ cursor: url('Imagenes/Mouse2.webp'), auto;
 .capa2{
 cursor: url('Imagenes/Mouse2.webp'), auto;
 }
+.capa3{
+cursor: url('Imagenes/Mouse2.webp'), auto;
+}
 *::after,
 *::before{
 margin: 0; 
@@ -306,7 +309,7 @@ opacity: 1;
 visibility: visible;
 }
 .conocimiento figure:hover > .capa h3{
-margin-top: 5vw;
+margin-top: 3vw;
 margin-bottom: 1vw;
 
 }
@@ -336,7 +339,7 @@ opacity: 1;
 visibility: visible;
 }
 .conocimiento figure:hover > .capa2 h3{
-margin-top: 5vw;
+margin-top: 2vw;
 margin-bottom: 1vw;
 
 }
