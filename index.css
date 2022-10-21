@@ -1,7 +1,7 @@
 /* Generales (Navegador, Body, Footer, fuentes) */
 html{
 scroll-behavior:smooth;
-scroll-padding: 7vw;
+scroll-padding: 5vw;
 }
 h1{
 font-size: 3vw;
