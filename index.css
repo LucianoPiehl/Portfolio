@@ -598,9 +598,10 @@ text-align: center;
 
 }
 .Tamaño img{
-width: 12vw;
-height: 12vw;   
+    width: 12vw;
+    height: 12vw;   
 }
+
 .Tamaño figure:hover{
 transition: 1.5s;
 transform: scale(1.1);
