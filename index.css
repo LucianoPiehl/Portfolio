@@ -2,6 +2,31 @@
 html{
 scroll-behavior:smooth;
 }
+h1{
+    font-size: 3vw;
+}
+h2{
+    font-size: 3vw;
+}
+h3{
+    font-size: 2.3vw;
+}
+h4{
+    font-size: 3vw;
+}
+p{
+    font-size: 2.5vw;
+}
+a{
+    font-size: 1vw;
+}
+li{
+    font-size: 2vw;
+}
+.font-s a{
+    font-size: 3vw;
+}
+
 /*  */
 /* hr */
 hr{
@@ -59,7 +84,7 @@ height: 6vw;
 width:6vw;
 margin-right: 2vw;
 float: left;
-margin-top: 0.2vw;
+margin-top: 1.4vw;
 margin-bottom: 0.4vw;
 }
 .navigator a:hover{
@@ -75,10 +100,10 @@ justify-content: center;
 position: fixed;
 background-color: rgb(8, 109, 249);
 z-index: 1000;
-height: 7vw;
+height: 9vw;
 }
 nav ul li{
-font-size: 2vw;
+
 list-style: none;
 margin-left: 3vw;
 float: left;
@@ -92,6 +117,7 @@ padding: 1vw;
 text-decoration: none;
 color: black;
 font-weight: bold;
+
 }
 nav ul li a:hover::before{
 display: block;
@@ -111,7 +137,7 @@ display: table;
 }
 /* Footer */
 footer{
-font-size: 1vw;
+font-size: 2vw;
 display: flex;
 justify-content: center;
 background-color: #6AF0F7;
@@ -123,6 +149,7 @@ margin-right: 0px;
 position: relative;
 height: 14vw;
 }
+
 .FooterRedes{
 display: flex;
 justify-content: space-around;
@@ -134,10 +161,24 @@ justify-content: space-between;
 flex-direction: row;
 padding: 2vw;
 }
+.grupo2{
+    font-size: small;
+}
 .box2{
 padding-left: 7vw;
 padding-right: 7vw;
+
 }
+.box2 h2{
+    font-size: medium;
+}
+.box2 p{
+    font-size: medium;
+}
+.box h2{
+    font-size: medium;
+}
+
 .Social{
 width: 6vw;
 height: 6vw;
@@ -173,11 +214,11 @@ height: auto;
 }
 .intro p{
 color: black;
-font-size: 2vw;
+
 margin-top: 5vw;   
 }
 .LogoIntro {
-font-size: 2vw;
+
 color: black;
 padding-top: 13vw;
 }
@@ -219,7 +260,7 @@ scroll-margin-top: 7vw;
 scroll-behavior: smooth;
 }
 .Seccion{
-font-size: 3vw;
+
 }
 /* Skills */
 .conocimiento{
@@ -267,7 +308,7 @@ visibility: visible;
 .conocimiento figure:hover > .capa h3{
 margin-top: 5vw;
 margin-bottom: 1vw;
-font-size: 2vw;
+
 }
 .conocimiento figure:hover > img{
 transform: scale(1.3);
@@ -297,7 +338,7 @@ visibility: visible;
 .conocimiento figure:hover > .capa2 h3{
 margin-top: 5vw;
 margin-bottom: 1vw;
-font-size: 2vw;
+
 }
 .conocimiento figure:hover > img{
 transform: scale(1.3);
@@ -363,12 +404,12 @@ margin-right: 4vw;
 width: 100%;
 border-radius: 3vw;
 z-index: 1530;
-font-size: 1vw;
+
 justify-content: center;
 }
 .IntroEstudios h2{
 color: white;
-font-size: 3vw;
+
 }
 .cuadradoblanco{
 border: solid 1px #FFF;
@@ -379,20 +420,20 @@ width: 85.5vw;
 margin-left: 1.5vw;
 }
 .cuadradoblanco p{
-font-size: 2vw;
+
 color: #fff;
 }
 .cuadradoblanco h3{
-font-size: 3vw;
+
 }
 .IntroEstudios h3{
 color: rgb(8, 109, 249);
-font-size: 3vw;
+
 }
 .Conocimiento{
 display: flex;
 flex-direction: row;
-font-size:0.8vw;
+font-size:1.6vw;
 margin-right: 12vw;
 justify-content: center;
 }
@@ -417,7 +458,7 @@ border-bottom-color: #222;
 border-bottom-width: 2px;
 border-bottom-style: solid;
 align-self:center;
-font-size: 1vw;
+
 }
 .capa a:hover{
 transform: scale(1.3);
@@ -436,7 +477,7 @@ border-bottom-color: #222;
 border-bottom-width: 2px;
 border-bottom-style: solid;
 align-self:center;
-font-size: 1vw;
+
 }
 .skills{ 
 background-color:#000;
@@ -462,7 +503,7 @@ left:0;
 padding:1vw;
 color: black;
 text-decoration:none;
-font-size:1vw;
+font-size:2vw;
 box-sizing:border-box;
 }
 .parrafo{
@@ -497,7 +538,7 @@ align-items: center;
 }
 /*Datos Personales*/
 .SeccionDatos{
-font-size: 2vw;
+
 text-align: center;
 }
 .cuadradoblanco2{
@@ -511,11 +552,11 @@ justify-content: center;
 align-content: center;
 }
 .cuadradoblanco2 p{
-font-size: 2vw;
+
 color: #fff;
 }
 .cuadradoblanco2 h3{
-font-size: 3vw;
+
 }
 .tabla{
 border: solid 1px #FFF;
@@ -525,7 +566,7 @@ border-collapse: collapse;
 margin-left: 0.5vw;
 width: 62vw;   
 height: 13vw;
-font-size: 1.5vw;
+
 }
 .cuadradoblanco2 img{
 width: 12.5vw;
@@ -554,7 +595,7 @@ border-radius: 1vw;
 .cuadradoblanco3 h1{
 color: #FFF;
 text-align: center;
-font-size: 2vw;
+
 }
 .Tamaño img{
 width: 12vw;
@@ -609,7 +650,7 @@ height: 3vw;
 .Español{
 margin: 2vw;
 color: #FFF;
-font-size: 2vw;
+
 /* border: 1px solid #ccc; */
 border-radius: 1vw;
 margin-right: 21vw;
@@ -626,7 +667,7 @@ padding: 1.7vw;
 .Ingles{
 margin: 2vw;
 color: #FFF;
-font-size: 2vw;
+
 /* border: 1px solid #ccc; */
 border-radius: 1vw;
 width: 20.5vw;
@@ -640,7 +681,7 @@ margin-top: 1.7vw;
 }
 .center2 p{
 color: #FFF;
-font-size: 2vw;
+
 padding: 1vw;
 justify-content: center;
 
@@ -650,7 +691,7 @@ justify-content: center;
 margin-left: 8vw;
 margin: 2vw;
 color: #FFF;
-font-size: 2vw;
+
 /* border: 1px solid #ccc; */
 border-radius: 1vw;
 width: 27vw;
@@ -658,7 +699,7 @@ text-align: left;
 }
 .Español2{
 color: #FFF;
-font-size: 2vw;
+
 /* border: 1px solid #ccc; */
 border-radius: 1vw;
 width: 27vw;
@@ -693,7 +734,7 @@ background-color: #000;
 .cuadradoblanco4 h1{
 color: #FFF;
 text-align: center;
-font-size: 2vw;
+
 }
 .Experiencia a{
 display: flex;
@@ -720,77 +761,77 @@ background-color:#6AF0F7;
 width: 98.1%;
 border-radius: 3vw;
 z-index: 1530;
-font-size: 1vw;
+
 justify-content: center;
 }
 .cuadradoblanco4 figure{
-border: 1px solid #ccc;
-margin: 3vw;
-/* margin-top: 4vw; */
-position:relative;
-height: 15vw;
-cursor: pointer;
-width: 20vw;
-overflow: hidden;
-border-radius: 6px;
-display: flex;
-justify-content: center;
-box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
-}
-
-.cuadradoblanco4 figure img{
-width: 14vw;
-height: 14vw;
-/* all 400ms ease-out */
-transition: 1s;
-will-change: transform;
-padding: 2vw;
-}
-.cuadradoblanco4 figure .capa3{
-position: absolute;
-top: 0;
-width: 100%;
-height: 100%;
-background: rgba(42, 217, 230, 0.85);
-transition: 1s;
-opacity: 0;
-visibility: hidden;
-text-align: center;
-}
-.cuadradoblanco4 figure:hover > .capa3 {
-opacity: 1;
-visibility: visible;
-}
-.cuadradoblanco4 figure:hover > .capa3 h3{
-margin-top: 5vw;
-margin-bottom: 1vw;
-font-size: 2vw;
-}
-.cuadradoblanco4 figure:hover > img{
-transform: scale(1.3);
-}
-.cuadradoblanco4 figure .capa3 h3{
-color: black;
-font-weight: 400;
-margin-bottom: 120px;
-transition: 1s;
-margin-top: 30px;
-font-size: 2vw;
-}
-.cuadradoblanco4 figure:hover > img{
-transform: scale(1.3);
-}
-.cuadradoblanco4 a{
-display:block;
-width:9vw;
-font-weight:400;
-border-radius: 1vw;
-margin:1vw 1.3vw;
-padding:1vw 2vw;
-text-decoration:none;
-color:white;
-background-color:rgb(8, 109, 249);
-}
+    border: 1px solid #ccc;
+    margin: 3vw;
+    /* margin-top: 4vw; */
+    position:relative;
+    height: 15vw;
+    cursor: pointer;
+    width: 20vw;
+    overflow: hidden;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    }
+    
+    .cuadradoblanco4 figure img{
+    width: 14vw;
+    height: 14vw;
+    /* all 400ms ease-out */
+    transition: 1s;
+    will-change: transform;
+    padding: 2vw;
+    }
+    .cuadradoblanco4 figure .capa3{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(42, 217, 230, 0.85);
+    transition: 1s;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    }
+    .cuadradoblanco4 figure:hover > .capa3 {
+    opacity: 1;
+    visibility: visible;
+    }
+    .cuadradoblanco4 figure:hover > .capa3 h3{
+    margin-top: 5vw;
+    margin-bottom: 1vw;
+    
+    }
+    .cuadradoblanco4 figure:hover > img{
+    transform: scale(1.3);
+    }
+    .cuadradoblanco4 figure .capa3 h3{
+    color: black;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: 1s;
+    margin-top: 30px;
+    
+    }
+    .cuadradoblanco4 figure:hover > img{
+    transform: scale(1.3);
+    }
+    .cuadradoblanco4 a{
+    display:block;
+    width:9vw;
+    font-weight:400;
+    border-radius: 1vw;
+    margin:1vw 1.3vw;
+    padding:1vw 2vw;
+    text-decoration:none;
+    color:white;
+    background-color:rgb(8, 109, 249);
+    }
 .capa3 a{
 margin-left:5.5vw;
 color:black;
@@ -805,8 +846,11 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 }
-.parrafo{
-font-size: 2vw;
+.capa3{
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding-bottom: 3vw;
 }
 .IntroImagen2 h1{
 color: #fff;
@@ -817,7 +861,7 @@ height: 4vw;
 padding: 0.7vw; 
 }
 .IntroPortfolio2{
-background-color: #6AF0F7;jpg
+background-color: #6AF0F7;
 border-radius: 3vw;
 width: 100%;
 }
@@ -833,16 +877,8 @@ display: flex;
 justify-content: center;
 align-items: center;   
 }
-/* #margin_practicas{
-<<<<<<< HEAD
-    margin-left: 33vw;
-=======
-    
-}
-.justify-content{
-    display: flex;   
+#margin_practica{
+    display: flex;
     justify-content: center;
     flex-direction: row;
-
->>>>>>> 3bcf69e (Actualizacion)
-} */
+}
