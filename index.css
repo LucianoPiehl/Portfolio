@@ -12,19 +12,19 @@ margin: auto;
 /* Body */
 body{
 background-color: rgb(8, 109, 249);
-cursor: url('Imagenes/Mouse1.png'), auto;
+cursor: url('Imagenes/Mouse1.webp'), auto;
 }
 a{
-cursor: url('Imagenes/Mouse2.png'), auto;
+cursor: url('Imagenes/Mouse2.webp'), auto;
 }
 figure{
-cursor: url('Imagenes/Mouse2.png'), auto;
+cursor: url('Imagenes/Mouse2.webp'), auto;
 }
 .capa{
-cursor: url('Imagenes/Mouse2.png'), auto;
+cursor: url('Imagenes/Mouse2.webp'), auto;
 }
 .capa2{
-cursor: url('Imagenes/Mouse2.png'), auto;
+cursor: url('Imagenes/Mouse2.webp'), auto;
 }
 *::after,
 *::before{
@@ -200,7 +200,7 @@ transition: ease-in-out 0.5s;
 /* Estudios */
 .EstudiosImagen{
 border: solid 1px #FFF;
-background-image: url("Imagenes/FondoEstudio.png");
+background-image: url("Imagenes/FondoEstudio.webp");
 display: flex;
 justify-content: center;
 height: 11vw;
@@ -487,7 +487,7 @@ width: 99%;
 border: solid 1px #FFF; 
 margin-left: 4vw;
 border-radius: 1vw;
-background-image: url('Imagenes/FondoIntro.png');
+background-image: url('Imagenes/FondoIntro.webp');
 background-size: cover;
 width: 85.5vw;
 height: 13vw;
@@ -588,7 +588,7 @@ width: 62vw;
 height: 32vw;
 border-radius: 1vw;
 margin-left: 9.5vw;
-cursor: url('Imagenes/Mouse2.png'), auto;
+cursor: url('Imagenes/Mouse2.webp'), auto;
 }
 /* Idiomas */
 .cuadradoblancoL{
@@ -817,7 +817,7 @@ height: 4vw;
 padding: 0.7vw; 
 }
 .IntroPortfolio2{
-background-color: #6AF0F7;
+background-color: #6AF0F7;jpg
 border-radius: 3vw;
 width: 100%;
 }
@@ -825,7 +825,7 @@ width: 100%;
 border: solid 1px #FFF; 
 margin-left: 3.5vw;
 border-radius: 1vw;
-background-image: url('Imagenes/FondoIntro2.png');
+background-image: url('Imagenes/FondoIntro2.webp');
 background-size: cover;
 width: 85.5vw;
 height: 13vw;
@@ -833,8 +833,16 @@ display: flex;
 justify-content: center;
 align-items: center;   
 }
+/* #margin_practicas{
+<<<<<<< HEAD
+    margin-left: 33vw;
+=======
+    
+}
 .justify-content{
     display: flex;   
     justify-content: center;
     flex-direction: row;
-}
+
+>>>>>>> 3bcf69e (Actualizacion)
+} */
