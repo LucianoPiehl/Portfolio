@@ -222,6 +222,7 @@ transition: ease-in-out 0.5s;
 .EstudiosImagen{
 border: solid 1px #FFF;
 background-image: url("Imagenes/FondoEstudio.webp");
+background-repeat: round;
 display: flex;
 justify-content: center;
 height: 11vw;
@@ -561,6 +562,10 @@ border-radius: 1vw;
 }
 thead{
 background-color: rgb(85, 84, 84,0.7);
+font-size: 1.5vw;
+}
+tbody{
+    font-size: 2vw;
 }
 th{
 padding: 20px 15px;
@@ -568,6 +573,7 @@ padding: 20px 15px;
 td{
 padding: 20px 15px;
 text-align: center;
+
 }
 /* Medios de Contacto */
 .cuadradoblanco3{
