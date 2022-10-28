@@ -3,9 +3,16 @@
   "short_name": "Portfolio",
   "start_url": "./index.html",
   "display": "browser",
+  "background-color": "#086DF8",
+  "theme-color": "#6BF1F7",
   "icons": [{
     "src": "Imagenes/Logo.webp",
     "sizes": "141x190",
+    "type": "image/webp"
+  },
+  {
+    "src": "Imagenes/Logo.webp",
+    "sizes": "512x512",
     "type": "image/webp"
   }],
   "related_applications": [{
