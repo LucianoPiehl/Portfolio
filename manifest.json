@@ -8,18 +8,14 @@
   "icons": [{
     "src": "Imagenes/luciano.webp",
     "sizes": "128x128",
-    "type": "image/webp"
+    "type": "image/webp",
+    "purpose": "maskable"
   },
   {
     "src": "Imagenes/Logo2.webp",
     "sizes": "512x512",
-    "type": "image/png"
-  }],
-  "related_applications": [{
-    "platform": "web"
-  }, {
-    "platform": "play",
-    "url": "https://lucianopiehl.github.io/Portfolio/#IntroPortfolio"
+    "type": "image/png",
+    "purpose": "maskable"
   }],
   "description": "Portfolio de Luciano Piehl",
   "dir": "rtl",
