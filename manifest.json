@@ -3,8 +3,8 @@
   "short_name": "Portfolio",
   "start_url": "Portfolio/index.html",
   "display": "standalone",
-  "background-color": "#086DF8",
-  "theme-color": "#6BF1F7",
+  "background_color": "#086DF8",
+  "theme_color": "#6BF1F7",
   "icons": [{
     "src": "Imagenes/luciano.webp",
     "sizes": "128x128",
